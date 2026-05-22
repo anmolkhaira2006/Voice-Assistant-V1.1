@@ -1,0 +1,32 @@
+# ============================================================================
+# Chintu Voice Assistant - Python Dependencies
+# ============================================================================
+# Install with:  pip install -r requirements.txt
+#
+# SYSTEM DEPENDENCIES (Kali Linux / Debian):
+#   sudo apt-get update
+#   sudo apt-get install -y portaudio19-dev python3-pyaudio \
+#       python3-pyqt6 firefox-esr
+#
+# For Selenium web automation, you also need a browser driver:
+#   Firefox:  sudo apt-get install -y firefox-esr
+#             pip install webdriver-manager  (auto-downloads geckodriver)
+#   Chrome:   Install chromedriver from your package manager
+# ============================================================================
+
+# --- Core UI Framework ---
+PyQt6>=6.6.0
+
+# --- Audio / Speech ---
+SpeechRecognition>=3.10.0
+PyAudio>=0.2.14
+
+# --- Desktop Automation ---
+pyautogui>=0.9.54
+
+# --- Web Browser Automation (for Gmail, YouTube, etc.) ---
+selenium>=4.15.0
+webdriver-manager>=4.0.0
+
+# --- Build / Packaging ---
+pyinstaller>=6.0.0
