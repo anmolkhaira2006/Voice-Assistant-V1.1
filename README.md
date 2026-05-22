@@ -1,4 +1,4 @@
-# 🤖 Chintu Voice Assistant
+# 🤖 Chintu Voice Assistant V1.1
 
 **A production-ready, bilingual (English + Hindi) desktop voice assistant with a cyberpunk overlay UI, shell command execution, web automation, and OS control.**
 
